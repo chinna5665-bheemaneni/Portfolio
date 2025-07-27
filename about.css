@@ -1,0 +1,63 @@
+.bg
+{
+background-image:url('C:/Users/chinna/Cisco Packet Tracer 8.2.2/saves/OLO2DM0.jpg');
+background-size:cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+.navbar h1 {
+  margin: 0;
+font-size:30px;
+ color:white;
+}
+
+.navbar .links a {
+  margin-left: 50px;
+  text-decoration: none;
+  color:0D5EA6;
+  font-weight: bold;
+  font-size:25px;
+  perspective: 500px;
+}
+
+.bord
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:25px 100px;
+}
+.con p
+{
+color:white;
+font-size:30px;
+}
+.img
+{
+display:flex;
+justify-content:right;
+}
+.navbar .links a:hover
+{
+color:white;
+}
+
+.infoo
+{
+border:5px solid green;
+border-width:6px;
+margin-left:40px;
+margin-right:40px;
+padding:10px 20px;
+font-size:35px;
+border-radius:10px;
+}
+
+
+

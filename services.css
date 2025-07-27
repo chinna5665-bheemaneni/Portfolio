@@ -1,0 +1,88 @@
+.ser
+{
+background-color:FFF2E0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+.navbar h1 {
+  margin: 0;
+font-size:30px;
+ color:black;
+}
+
+.navbar .links a {
+  margin-left: 50px;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  font-size:20px;
+  perspective: 500px;
+}
+.navbar .links a:hover
+{
+color:red;
+}
+
+.bor {
+      padding: 10px 20px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      border: 6px solid;
+      border-radius: 20px;
+      border-color: red blue green orange;
+      width: fit-content;
+      margin: 10px auto;
+    }
+.bor1
+{
+border-style:solid;
+border-width: 4px;
+padding: 10px;
+width: fit-content;
+border-radius:20px;
+margin-left:70%;
+  animation: a 6s linear infinite;
+    }
+
+    @keyframes a {
+      0%   { border-color: red; }
+      25%  { border-color: orange; }
+      50%  { border-color: green; }
+      75%  { border-color: blue ; }
+      100% { border-color: yellow; }
+    }
+.card
+{
+display:flex;
+justify-content:space-between;
+mragin-left:2px;
+}
+.border
+{
+width:fit-content;
+;
+border-radius:15px;
+margin-left:20px;
+padding:5px 10px;
+background-color:819067;
+border-width:6px;
+border-color:blue;
+}
+.content
+{
+color:white;
+margin-left:15px;
+font-size:20px;
+}
+.me
+{
+font-size:30px;
+color:1F7D53;
+}
